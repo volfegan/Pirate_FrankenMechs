@@ -1,0 +1,19 @@
+{
+   "displayName" : "Pirate_FrankenMechs",
+   "version" : "1.0",
+   "buildNumber" : 4,
+   "description" : "Another Pirate FrankenMechs.",
+   "author" : "Volfegan",
+   "authorURL" : "",
+   "defaultLoadOrder" : 0,
+   "gameVersion" : "1.1.0",
+   "manifest" : [
+      JVN-10NF_Loadout,
+      JVN-10NF_MDA,
+      Javelin-10NF_HPS,
+      JVN-10NF_UnitCard
+   ],
+   "steamPublishedFileId" : 0,
+   "steamLastSubmittedBuildNumber" : 0,
+   "steamModVisibility" : "Private"
+}

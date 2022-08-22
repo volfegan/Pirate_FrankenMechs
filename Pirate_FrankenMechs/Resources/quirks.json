@@ -1,0 +1,21 @@
+{
+	"JVN-10NF": {
+		"name": "Bad ammmo feeding mechanism",
+		"description": "To accomodate the power supply for the energy weapons, the space management for missile ammunition feeding mechanism were re-routed and became less efficient. It is not possible to have extra missiles pods in the left torso.",
+		"color": "(R=0.13,G=0.59,B=0.11,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile"
+						],
+						"cooldownMulti": 1.1
+					}
+				]
+			}
+        }
+    }
+}

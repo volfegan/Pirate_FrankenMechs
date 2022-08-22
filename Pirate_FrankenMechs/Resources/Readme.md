@@ -1,5 +1,5 @@
-# Pirate_FrankenMechs
-Source code for Unreal Engine 4  MOD for Mechwarrior 5 with new pirate battlemech variants.
+
+
 
 JVN-10NF: Faction Rarity  {
     Davion: Very rare,
