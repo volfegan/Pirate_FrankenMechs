@@ -1,14 +1,14 @@
 {
    "displayName" : "Pirate_FrankenMechs",
    "version" : "",
-   "buildNumber" : 23,
+   "buildNumber" : 46,
    "description" : "Another Pirate FrankenMechs.",
    "author" : "Volfegan",
    "authorURL" : "",
    "defaultLoadOrder" : 0,
    "gameVersion" : "1.1.0",
    "manifest" : [
-      
+      "/Game/Objects/Mechs/_common/Mech_SKL.uasset"
    ],
    "steamPublishedFileId" : 2861962190,
    "steamLastSubmittedBuildNumber" : 9,

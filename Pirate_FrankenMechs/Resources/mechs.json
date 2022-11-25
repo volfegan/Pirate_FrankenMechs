@@ -8,5 +8,12 @@
 		"quirks": [
 			"CPLT-C1K2"
 		]
+	},
+	"HBK-BNC": {
+		"quirks": [
+			"HBK-BNC",
+            "BATTLEFISTS",
+            "VERY-UNBALANCED"
+		]
 	}
 }

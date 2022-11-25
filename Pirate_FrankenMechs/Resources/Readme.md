@@ -16,6 +16,6 @@ Catapult CAT-C1K2: Faction Rarity  {
 }
 
 HunHunchee HBK-BNC: Faction Rarity  {
-    Periphery: Rare,
+    Periphery: Very rare,
     Bandits, Outlaws and Pirates: Uncommon
 }
