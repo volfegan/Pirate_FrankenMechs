@@ -1,19 +1,16 @@
 {
    "displayName" : "Pirate_FrankenMechs",
-   "version" : "1.0",
-   "buildNumber" : 4,
+   "version" : "",
+   "buildNumber" : 23,
    "description" : "Another Pirate FrankenMechs.",
    "author" : "Volfegan",
    "authorURL" : "",
    "defaultLoadOrder" : 0,
    "gameVersion" : "1.1.0",
    "manifest" : [
-      \Pirate_FrankenMechs\Content\Objects\Mechs\Javelin\Loadout\JVN-10NF_Loadout,
-      \Pirate_FrankenMechs\Content\Objects\Mechs\Javelin\MDA\JVN-10NF_MDA,
-      \Pirate_FrankenMechs\Content\Objects\Mechs\Javelin\Model\Javelin-10NF_HPS,
-      \Pirate_FrankenMechs\Content\Objects\Mechs\Javelin\UnitCard\JVN-10NF_UnitCard
+      
    ],
-   "steamPublishedFileId" : 0,
-   "steamLastSubmittedBuildNumber" : 0,
+   "steamPublishedFileId" : 2861962190,
+   "steamLastSubmittedBuildNumber" : 9,
    "steamModVisibility" : "Private"
 }

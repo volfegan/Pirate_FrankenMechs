@@ -1,7 +1,7 @@
 {
 	"JVN-10NF": {
-		"name": "Bad ammmo feeding mechanism",
-		"description": "To accomodate the power supply for the energy weapons, the space management for missile ammunition feeding mechanism were re-routed and became less efficient. It is not possible to have extra missiles pods in the left torso.",
+		"name": "Missile Ammo Feed Problem",
+		"description": "To accommodate the power supply for the energy weapons, the space management of the missile ammunition feeding mechanism was re-routed and became less efficient. The torso internals are so clogged that installing any extra weapons system is nearly impossible. At least there are space for equipments.",
 		"color": "(R=0.13,G=0.59,B=0.11,A=1)",
 		"properties": {
 			"weapons": {
@@ -17,5 +17,16 @@
 				]
 			}
         }
-    }
-}
+    },
+	"CPLT-C1K2": {
+
+		"name": "Unbalanced",
+		"description": "This 'Mech is inherently imbalanced and suffers a penalty to mobility",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistRateMulti": 0.9,
+			"turnSpeedMulti": 0.9,
+			"accelerationMulti": 0.95,
+			"decelerationMulti": 0.95
+		}
+	}

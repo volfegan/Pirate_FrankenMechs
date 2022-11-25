@@ -1,0 +1,38 @@
+{
+    "displayName" : "Pirate_FrankenMechs",
+    "version" : "1.0",
+    "buildNumber" : 4,
+    "description" : "Another Pirate FrankenMechs.",
+    "author" : "Volfegan",
+    "authorURL" : "https://github.com/volfegan/Pirate_FrankenMechs_MW5mod",
+    "defaultLoadOrder" : 0,
+    "gameVersion" : "1.1.0",
+    "manifest" : [
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Loadout\HBK-BNC_Loadout
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\MDA\HBK-BNC_MDA
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\HunHunchee_HPS
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\HunHunchee_MDL
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\BCN Clavicle_Right_SM.fbx
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\BCN Forearm_Right_SM.fbx
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\BCN Upperarm_Right_SM.fbx
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\BNC_Clavicle_Right_SM_StaticMesh_LOD0
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\BNC_Forearm_Right_SM_StaticMesh_LOD0
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\BNC_Upperarm_Right_SM_StaticMesh_LOD0
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\HunHunchee.blend
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\HunHunchee.blend1
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\HunHunchee.fbx
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\HunHunchee_PHY
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\HunHunchee_Ragdoll_PHY
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Model\Body\HunHunchee_SKM
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\Target\HunHunchee_Target,
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Hunchback\UnitCard\HBK-BNC_UnitCard,
+      
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Javelin\Loadout\JVN-10NF_Loadout,
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Javelin\MDA\JVN-10NF_MDA,
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Javelin\Model\Javelin-10NF_HPS,
+      \Pirate_FrankenMechs\Content\Objects\Mechs\Javelin\UnitCard\JVN-10NF_UnitCard
+    ],
+    "steamPublishedFileId" : 0,
+    "steamLastSubmittedBuildNumber" : 0,
+    "steamModVisibility" : "Private"
+}

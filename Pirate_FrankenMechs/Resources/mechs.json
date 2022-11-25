@@ -3,5 +3,10 @@
 		"quirks": [
 			"JVN-10NF"
 		]
+	},
+	"CPLT-C1K2": {
+		"quirks": [
+			"CPLT-C1K2"
+		]
 	}
 }
