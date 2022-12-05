@@ -29,7 +29,7 @@
 			"decelerationMulti": 0.95
 		}
 	},
-	"HBK-BNC": {
+	"HBK4G-BNC": {
 		"name": "Ballistic Ammo Feed Problem",
 		"description": "To accommodate that gigantic arm, something had to be lost, so ammunition feeding mechanism was re-routed and became less efficient.",
 		"color": "(R=0.13,G=0.59,B=0.11,A=1)",
@@ -41,8 +41,26 @@
 						"tags": [
 							"Weapon.Ballistic"
 						],
-						"cooldownMulti": 1.2,
-						"spreadRadiusMulti": 1.25
+						"cooldownMulti": 1.25
+					}
+				]
+			}
+        }
+    },
+	"HBK4J-BNC": {
+		"name": "Missile Ammo Feed Problem",
+		"description": "To accommodate that gigantic arm, something had to be lost, so ammunition feeding mechanism was re-routed and became less efficient.",
+		"color": "(R=0.13,G=0.59,B=0.11,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile"
+						],
+						"cooldownMulti": 1.25
 					}
 				]
 			}
@@ -89,6 +107,17 @@
 					}
 				]
 			}
+		}
+	},
+	"DIFFICULTTOMAINTAIN": {
+		"name": "Difficult To Maintain",
+		"description": "This 'Mech is built with little regard to maintenance",
+		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+		"properties": {
+			"structureRepairCostMulti": 1.25,
+			"structureRepairDaysMulti": 1.25,
+			"armorRepairCostMulti": 1.15,
+			"equipmentRefitCostMulti": 1.2
 		}
 	}
 }

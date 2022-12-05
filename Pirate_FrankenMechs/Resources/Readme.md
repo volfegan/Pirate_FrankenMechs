@@ -10,7 +10,7 @@ Javelin JVN-10NF: Faction Rarity  {
     FederatedCommonwealth: Very rare
 }
 
-Catapult CAT-C1K2: Faction Rarity  {
+Catapult CPLT-C1K2: Faction Rarity  {
     Free Rasalhague Republic: Rare,
     Bandits, Outlaws and Pirates: Very rare
 }

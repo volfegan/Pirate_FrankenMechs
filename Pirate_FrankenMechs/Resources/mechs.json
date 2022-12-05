@@ -9,11 +9,20 @@
 			"CPLT-C1K2"
 		]
 	},
-	"HBK-BNC": {
+	"HBK4G-BNC": {
 		"quirks": [
-			"HBK-BNC",
+			"HBK4G-BNC",
             "BATTLEFISTS",
-            "VERY-UNBALANCED"
+            "VERY-UNBALANCED",
+            "DIFFICULTTOMAINTAIN"
+		]
+	},
+	"HBK4J-BNC": {
+		"quirks": [
+			"HBK4J-BNC",
+            "BATTLEFISTS",
+            "VERY-UNBALANCED",
+            "DIFFICULTTOMAINTAIN"
 		]
 	}
 }
