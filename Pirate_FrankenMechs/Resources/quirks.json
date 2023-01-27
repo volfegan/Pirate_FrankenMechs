@@ -1,7 +1,7 @@
 {
-	"JVN-10NF": {
+	"JVN-AMMOFEEDPROBLEM": {
 		"name": "Missile Ammo Feed Problem",
-		"description": "To accommodate the power supply for the energy weapons, the space management of the missile ammunition feeding mechanism was re-routed and became less efficient. The torso internals are so clogged that installing any extra weapons system is nearly impossible. At least there are space for equipments.",
+		"description": "By accommodating non-missile weapon systems on half the mech, the missile ammunition feeding mechanism was re-routed to work from a single side of the chassis torso and became less efficient.",
 		"color": "(R=0.13,G=0.59,B=0.11,A=1)",
 		"properties": {
 			"weapons": {
@@ -12,19 +12,27 @@
 							"Weapon.Missile",
 							"Weapon.ArtemisMissile"
 						],
-						"cooldownMulti": 1.1
+						"cooldownMulti": 1.15
 					}
 				]
 			}
         }
     },
-	"CPLT-C1K2": {
+	"DISTRACTING": {
+		"name": "Distracting",
+		"description": "This 'Mech has a fearsome reputation and/or appearance that can affect enemy competence",
+		"color": "(R=0.000000,G=0.750000,B=0.750000,A=1)",
+		"properties": {
+			"dmgEvasionChance": 0.07
+		}
+	},
+	"CPLT-UNBALANCED": {
 		"name": "Unbalanced",
 		"description": "This 'Mech is inherently imbalanced and suffers a penalty to mobility",
 		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
 		"properties": {
-			"torsoTwistRateMulti": 0.9,
-			"turnSpeedMulti": 0.9,
+			"torsoTwistRateMulti": 0.85,
+			"turnSpeedMulti": 0.85,
 			"accelerationMulti": 0.95,
 			"decelerationMulti": 0.95
 		}
@@ -71,8 +79,7 @@
 		"description": "This 'Mech is very imbalanced and suffers a penalty to mobility. It barely can punch without falling.",
 		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
 		"properties": {
-			"torsoTwistRateMulti": 0.8,
-			"turnSpeedMulti": 0.8,
+			"turnSpeedMulti": 0.75,
 			"accelerationMulti": 0.95,
 			"decelerationMulti": 0.85,
 			"weapons": {
@@ -109,15 +116,57 @@
 			}
 		}
 	},
-	"DIFFICULTTOMAINTAIN": {
+	"DIFFICULTTOMAINTAIN-FM": {
 		"name": "Difficult To Maintain",
 		"description": "This 'Mech is built with little regard to maintenance",
 		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
 		"properties": {
 			"structureRepairCostMulti": 1.25,
-			"structureRepairDaysMulti": 1.25,
-			"armorRepairCostMulti": 1.15,
-			"equipmentRefitCostMulti": 1.2
+			"structureRepairDaysMulti": 1.5,
+			"armorRepairCostMulti": 1.25,
+			"armorRepairDaysMulti": 1.5,
+			"equipmentRefitCostMulti": 1.25,
+			"equipmentRefitDaysMulti": 1.2
 		}
-	}
+	},
+    "JVN-NOCOOLINGJACKET": {
+		"name": "No Cooling Jacket",
+		"description": "No space on this tiny Javelin left torso to fit Cooling Jackets for the Shadow Hawk Cannon. In fact, everything is so cramped, overheating is easy due to bad heat circulation.",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"heatMulti": 2.75
+					}
+				]
+			}
+		}    
+    },
+	"JVN-UNBALANCED": {
+		"name": "Unbalanced",
+		"description": "This 'Mech is inherently imbalanced and suffers a penalty to mobility",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistRateMulti": 0.90,
+			"turnSpeedMulti": 0.90,
+			"accelerationMulti": 0.90,
+			"decelerationMulti": 0.90
+		}
+	},
+    "NOJUMPY": {
+		"name": "No Jumping",
+		"description": "This 'Mech cannot use jumpjets for many reasons, so they are offline even if installed. So don't try and break the mech doing a death from above to itself because its gyro cannot process the recoil of its weapons on mid-air, too unbalaced, etc.",
+		"color": "(R=0.074510,G=0.211765,B=0.062745,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 0.0,
+			"jumpJetInitialZVelocityMulti": 0.0,
+			"jumpJetXyAccelMulti": 0.0,
+			"jumpJetZAccelMulti": 0.0
+		}    
+    }
 }

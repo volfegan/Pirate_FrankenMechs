@@ -1,28 +1,47 @@
 {
 	"JVN-10NF": {
 		"quirks": [
-			"JVN-10NF"
+			"JVN-AMMOFEEDPROBLEM"
 		]
 	},
 	"CPLT-C1K2": {
 		"quirks": [
-			"CPLT-C1K2"
+			"CPLT-UNBALANCED"
 		]
 	},
 	"HBK4G-BNC": {
 		"quirks": [
 			"HBK4G-BNC",
+            "NOJUMPY",
             "BATTLEFISTS",
             "VERY-UNBALANCED",
-            "DIFFICULTTOMAINTAIN"
+            "DIFFICULTTOMAINTAIN-FM"
 		]
 	},
 	"HBK4J-BNC": {
 		"quirks": [
 			"HBK4J-BNC",
+            "NOJUMPY",
             "BATTLEFISTS",
             "VERY-UNBALANCED",
-            "DIFFICULTTOMAINTAIN"
+            "DIFFICULTTOMAINTAIN-FM"
+		]
+	},
+    "JVN10F-SHD": {
+		"quirks": [
+            "NOJUMPY",
+            "JVN-UNBALANCED",
+            "JVN-NOCOOLINGJACKET",
+            "DIFFICULTTOMAINTAIN-FM"
+		]
+	},
+    "JVN10N-SHD": {
+		"quirks": [
+            "NOJUMPY",
+            "JVN-UNBALANCED",
+            "JVN-AMMOFEEDPROBLEM",
+            "JVN-NOCOOLINGJACKET",
+            "DIFFICULTTOMAINTAIN-FM"
 		]
 	}
 }
