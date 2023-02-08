@@ -18,12 +18,85 @@
 			}
         }
     },
-	"DISTRACTING": {
-		"name": "Distracting",
-		"description": "This 'Mech has a fearsome reputation and/or appearance that can affect enemy competence",
+	"INFERNALFIRE": {
+		"name": "Infernal Fire",
+		"description": "Somehow, this cursed 'Mechs is capable of removing the heat from the other energy weapons to make the flamers hotter and with extended range.",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"heatMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Flamer",
+						"tags": [
+							"Weapon.Energy.Flamer"
+						],
+						"heatDamageMulti": 2.5,
+						"optimalRangeMulti": 1.5,
+						"maxRangeMulti": 1.5
+					}
+				]
+			}
+		}
+	},
+	"HYPER-EXT-ACTUATOR": {
+		"name": "Hyper-Extending Actuators",
+		"description": "This 'Mech can point its arms into the rear arc",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"armTwistAngleMulti": 1.3
+		}
+	},
+	"MOUNT-RT": {
+		"name": "Directional Torso Mount (RT)",
+		"description": "Shortened reload time for torso-mounted weapons",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Torso Weapon",
+						"tags": [
+							"Weapon"
+						],
+						"mechParts": [
+							"RightTorso"
+						],
+						"cooldownMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"NARROW-PROFILE": {
+		"name": "Narrow Profile",
+		"description": "The unit is constructed to present a very narrow or low profile to any incoming fire, with a chance to complete negate damage.",
 		"color": "(R=0.000000,G=0.750000,B=0.750000,A=1)",
 		"properties": {
-			"dmgEvasionChance": 0.07
+			"dmgEvasionChance": 0.15
+		}
+	},
+	"MAD-DRK1": {
+		"name": "Black Marauder weird Structure",
+		"description": "The Black Marauder weird internal built has a higher density structure. Some of those internal space are so large you can fit a body inside. And an evil aura emanates from its fearsome appearance affecting enemy competence.",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"dmgEvasionChance": 0.07,
+			"structureBonus": {
+				"CenterTorso": 20,
+				"RightTorso": 16,
+				"LeftTorso": 16,
+				"RightArm": 13,
+				"LeftArm": 13,
+				"RightLeg": 13,
+				"LeftLeg": 13
+			}
 		}
 	},
 	"CPLT-UNBALANCED": {

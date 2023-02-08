@@ -43,5 +43,15 @@
             "JVN-NOCOOLINGJACKET",
             "DIFFICULTTOMAINTAIN-FM"
 		]
+	},
+    "MAD-DRK1": {
+		"quirks": [
+            "NARROW-PROFILE",
+            "HYPER-EXT-ACTUATOR",
+			"MOUNT-RT",
+            "INFERNALFIRE",
+            "MAD-DRK1",
+            "DIFFICULTTOMAINTAIN-FM"
+		]
 	}
 }

@@ -11,11 +11,10 @@ Javelin JVN-10NF: Faction Rarity  {
     FederatedCommonwealth: Very rare
 }
 
-Catapult CPLT-C1K2: Faction Rarity  {
-    Free Rasalhague Republic: Rare,
-    Independents: Very rare,
-    Kurita: Very rare,
-    Bandits, Outlaws and Pirates: Rare
+Jallinder JVN-SHD: Faction Rarity  {
+    Mercenaries: Very rare,
+    Periphery: Rare,
+    Bandits, Outlaws and Pirates: Uncommon
 }
 
 HunHunchee HBK-BNC: Faction Rarity  {
@@ -23,8 +22,15 @@ HunHunchee HBK-BNC: Faction Rarity  {
     Bandits, Outlaws and Pirates: Uncommon
 }
 
-Jallinder JVN-SHD: Faction Rarity  {
-    Mercenaries: Very rare,
-    Periphery: Rare,
-    Bandits, Outlaws and Pirates: Uncommon
+Catapult CPLT-C1K2: Faction Rarity  {
+    Free Rasalhague Republic: Rare,
+    Independents: Very rare,
+    Kurita: Very rare,
+    Bandits, Outlaws and Pirates: Rare
+}
+
+Black Marauder MAD-DRK1: Faction Rarity  {
+    Independents: Very rare,
+    Periphery: Very Rare,
+    Bandits, Outlaws and Pirates: Very rare
 }
