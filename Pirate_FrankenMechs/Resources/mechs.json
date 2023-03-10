@@ -1,4 +1,14 @@
 {
+	"LCT-GUN": {
+		"quirks": [
+			"NARROW-PROFILE",
+			"LCT-UNBALANCED",
+			"LOCUST-GUN",
+			"WEAK-LEGS-GUN",
+            "NOJUMPY",
+            "DIFFICULTTOMAINTAIN-FM"
+		]
+	},
 	"JVN-10NF": {
 		"quirks": [
 			"JVN-AMMOFEEDPROBLEM"
@@ -49,6 +59,7 @@
             "NARROW-PROFILE",
             "HYPER-EXT-ACTUATOR",
 			"MOUNT-RT",
+            "CURSED",
             "INFERNALFIRE",
             "MAD-DRK1",
             "DIFFICULTTOMAINTAIN-FM"

@@ -18,9 +18,62 @@
 			}
         }
     },
+	"LCT-UNBALANCED": {
+		"name": "Cramped Cockpit and Unbalanced",
+		"description": "This 'Mech has an uncomfortably small cockpit. Also, that giant cannon makes this Locust super imbalanced and that affects the maximum speed it can go. The extra gyros on the cannon do nothing to help the myomer bundles' additional load stress.",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistRateMulti": 0.75,
+			"turnSpeedMulti": 0.80,
+			"accelerationMulti": 0.85,
+			"decelerationMulti": 0.8,
+            "topSpeedMulti": 0.91,
+            "topSpeedReverseMulti": 0.91
+		}
+	},
+	"LOCUST-GUN": {
+		"name": "Locust",
+		"description": "The Locust is a surprisingly efficient mech. And even this frankenmech variant has its good points.",
+		"color": "(R=1,G=1,B=1,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon"
+						],
+						"heatMulti": 0.8,
+						"cooldownMulti": 0.8
+					}
+				]
+			},
+			"structureBonus": {
+				"LeftTorso": 10
+			},
+			"armorBonus": {
+				"LeftTorso": 8
+			}
+		}
+	},
+	"WEAK-LEGS-GUN": {
+		"name": "Weak Legs",
+		"description": "This 'Mech has legs that buckle under pressure",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"maxArmorBonus": {
+				"LeftLeg": -2,
+				"RightLeg": -2
+			},
+			"structureBonus": {
+				"LeftLeg": -2,
+				"RightLeg": -2
+			}
+		}
+	},
 	"INFERNALFIRE": {
 		"name": "Infernal Fire",
-		"description": "Somehow, this cursed 'Mechs is capable of removing the heat from the other energy weapons to make the flamers hotter and with extended range.",
+		"description": "Somehow, this cursed 'Mechs is capable of removing the heat from its energy weapons to make the flamers hotter and with extended range.",
 		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
 		"properties": {
 			"weapons": {
@@ -37,7 +90,7 @@
 						"tags": [
 							"Weapon.Energy.Flamer"
 						],
-						"heatDamageMulti": 2.5,
+						"heatDamageMulti": 2.0,
 						"optimalRangeMulti": 1.5,
 						"maxRangeMulti": 1.5
 					}
@@ -82,12 +135,20 @@
 			"dmgEvasionChance": 0.15
 		}
 	},
+	"CURSED": {
+		"name": "Cursed 'Mech",
+		"description": "The Dark One exerts a toll on the mind of its pilot. Or maybe it's just that strange low frequency from the fusion reactor that messes with their sense. Pilots who do not know how to win or when to flee will have their body and soul consumed if they lose a battle.",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"pilotDeathPercMult": 1.95
+		}
+	},
 	"MAD-DRK1": {
-		"name": "Black Marauder weird Structure",
-		"description": "The Black Marauder weird internal built has a higher density structure. Some of those internal space are so large you can fit a body inside. And an evil aura emanates from its fearsome appearance affecting enemy competence.",
+		"name": "Black Marauder Weird Structure",
+		"description": "The Black Marauder has a higher density structure with an almost organic shape looks. Some of those internal spaces are so large you can fit a body inside. Also, an evil aura emanates from its fearsome appearance affecting enemy competence.",
 		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
 		"properties": {
-			"dmgEvasionChance": 0.07,
+			"dmgEvasionChance": 0.05,
 			"structureBonus": {
 				"CenterTorso": 20,
 				"RightTorso": 16,
@@ -199,7 +260,7 @@
 			"armorRepairCostMulti": 1.25,
 			"armorRepairDaysMulti": 1.5,
 			"equipmentRefitCostMulti": 1.25,
-			"equipmentRefitDaysMulti": 1.2
+			"equipmentRefitDaysMulti": 1.25
 		}
 	},
     "JVN-NOCOOLINGJACKET": {

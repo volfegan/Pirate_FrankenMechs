@@ -1,6 +1,11 @@
 
 
 
+Gunhed LCT-GUN: Faction Rarity  {
+    Periphery: Rare,
+    Bandits, Outlaws and Pirates: Uncommon
+}
+
 Javelin JVN-10NF: Faction Rarity  {
     Davion: Rare,
     Free Rasalhague Republic: Very rare,
@@ -30,7 +35,6 @@ Catapult CPLT-C1K2: Faction Rarity  {
 }
 
 Black Marauder MAD-DRK1: Faction Rarity  {
-    Independents: Very rare,
     Periphery: Very Rare,
     Bandits, Outlaws and Pirates: Very rare
 }
