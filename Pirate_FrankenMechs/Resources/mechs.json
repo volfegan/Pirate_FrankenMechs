@@ -14,6 +14,11 @@
 			"JVN-AMMOFEEDPROBLEM"
 		]
 	},
+    "CDA-TR4SH": {
+		"quirks": [
+            "CDA-AMMOFEEDPROBLEM"
+		]
+	},
 	"CPLT-C1K2": {
 		"quirks": [
 			"CPLT-UNBALANCED"
@@ -57,11 +62,19 @@
     "MAD-DRK1": {
 		"quirks": [
             "NARROW-PROFILE",
-            "HYPER-EXT-ACTUATOR",
 			"MOUNT-RT",
             "CURSED",
             "INFERNALFIRE",
             "MAD-DRK1",
+            "DIFFICULTTOMAINTAIN-FM"
+		]
+	},
+    "CGR-UM": {
+		"quirks": [
+            "UM-CURSE",
+            "UAV-CARRIER",
+            "BARREL-FIST (L)",
+            "JAM-RARM",
             "DIFFICULTTOMAINTAIN-FM"
 		]
 	}
