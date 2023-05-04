@@ -9,6 +9,14 @@
             "DIFFICULTTOMAINTAIN-FM"
 		]
 	},
+	"SDR-FLE": {
+		"quirks": [
+			"HARD-PILOT",
+			"IMP-LIFE-SUPPORT",
+			"NIMBLEJUMPER",
+            "DIFFICULTTOMAINTAIN-FM"
+		]
+	},
 	"JVN-10NF": {
 		"quirks": [
 			"JVN-AMMOFEEDPROBLEM"
@@ -74,7 +82,6 @@
             "UM-CURSE",
             "UAV-CARRIER",
             "BARREL-FIST (L)",
-            "JAM-RARM",
             "DIFFICULTTOMAINTAIN-FM"
 		]
 	}

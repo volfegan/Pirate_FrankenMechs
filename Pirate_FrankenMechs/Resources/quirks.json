@@ -18,6 +18,35 @@
 			}
         }
     },
+    "JVN-NOCOOLINGJACKET": {
+		"name": "No Cooling Jacket",
+		"description": "No space on this tiny Javelin left torso to fit Cooling Jackets for the Shadow Hawk Cannon. In fact, everything is so cramped, overheating is easy due to bad heat circulation.",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"heatMulti": 2.75
+					}
+				]
+			}
+		}    
+    },
+	"JVN-UNBALANCED": {
+		"name": "Unbalanced",
+		"description": "This 'Mech is inherently imbalanced and suffers a penalty to mobility",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistRateMulti": 0.90,
+			"turnSpeedMulti": 0.90,
+			"accelerationMulti": 0.90,
+			"decelerationMulti": 0.90
+		}
+	},
     "CDA-AMMOFEEDPROBLEM": {
 		"name": "Missile Ammo Feed Problem",
 		"description": "Due to lack of space, the missile ammunition feeding mechanism was re-routed and became less efficient and prone to jam.",
@@ -90,6 +119,35 @@
 			}
 		}
 	},
+	"NIMBLEJUMPER": {
+		"name": "Nimble Jumper",
+		"description": "This 'Mech is designed to be more effective with Jump Jets",
+		"color": "(R=0.074510,G=0.211765,B=0.062745,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"jumpJetXyAccelMulti": 1.15,
+			"jumpJetHeatMulti": 0.8
+		}
+	},
+	"HARD-PILOT": {
+		"name": "Hard to Pilot",
+		"description": "This 'Mech is designed to be used by expert pilots and gets a penalty to Piloting Skill",
+		"color": "(R=0.400000,G=0.400000,B=0.600000,A=1)",
+		"properties": {
+			"pilotingSkillBonus": -1
+		}
+	},
+	"IMP-LIFE-SUPPORT": {
+		"name": "Improved Life Support",
+		"description": "This 'Mech has enhanced defenses for the pilot",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"Head": 4
+			}
+		}
+	},
 	"INFERNALFIRE": {
 		"name": "Infernal Fire",
 		"description": "Somehow, this cursed 'Mechs is capable of removing the heat from its energy weapons to make the flamers hotter and with extended range.",
@@ -151,7 +209,8 @@
 		"description": "The Dark One exerts a toll on the mind of its pilot. Or maybe it's just that strange low frequency from the fusion reactor that messes with their sense. Pilots who do not know how to win or when to flee will have their body and soul consumed if they lose a battle.",
 		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
 		"properties": {
-			"pilotDeathPercMult": 1.95
+			"pilotingSkillBonus": -3,
+			"pilotDeathPercMult": 1.99
 		}
 	},
 	"MAD-DRK1": {
@@ -274,27 +333,6 @@
 			"equipmentRefitDaysMulti": 1.10
 		}
 	},
-	"JAM-RARM": {
-		"name": "Ammo Feed Problem (RA)",
-		"description": "Increased jam chance for the weapons in the right arm",
-		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
-		"properties": {
-			"weapons": {
-				"groups": [
-					{
-						"weaponGroupName": "Arm Weapon",
-						"tags": [
-							"Weapon"
-						],
-						"mechParts": [
-							"RightArm"
-						],
-						"jamChanceBonus": 0.1
-					}
-				]
-			}
-		}
-	},
 	"UAV-CARRIER": {
 		"name": "UAV Carrier",
 		"description": "This 'Mech has a built-in compartment for standard UAV drone(s).",
@@ -304,7 +342,7 @@
 		}
 	},
 	"BARREL-FIST (L)": {
-		"name": "Barrel Fist LA",
+		"name": "Barrel Fist Left Arm",
 		"description": "This BattleMech has been designed to be able to use an arm in melee combat despite the lack of a hand actuator.",
 		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
 		"properties": {
@@ -326,42 +364,13 @@
 	},
 	"UM-CURSE": {
 		"name": "UrbanMech curse",
-		"description": "Something affects the maximum speed this 'Mech can perform. Might be related to the entire center torso being replaced by an UrbanMech.",
+		"description": "Something affects the maximum speed performance this 'Mech can reach. Might be related to the entire center torso being replaced by an UrbanMech.",
 		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
 		"properties": {
 			"torsoTwistRateMulti": 0.85,
 			"accelerationMulti": 0.9,
 			"decelerationMulti": 0.9,
             "topSpeedMulti": 0.93
-		}
-	},
-    "JVN-NOCOOLINGJACKET": {
-		"name": "No Cooling Jacket",
-		"description": "No space on this tiny Javelin left torso to fit Cooling Jackets for the Shadow Hawk Cannon. In fact, everything is so cramped, overheating is easy due to bad heat circulation.",
-		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
-		"properties": {
-			"weapons": {
-				"groups": [
-					{
-						"weaponGroupName": "Weapon",
-						"tags": [
-							"Weapon.Ballistic"
-						],
-						"heatMulti": 2.75
-					}
-				]
-			}
-		}    
-    },
-	"JVN-UNBALANCED": {
-		"name": "Unbalanced",
-		"description": "This 'Mech is inherently imbalanced and suffers a penalty to mobility",
-		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
-		"properties": {
-			"torsoTwistRateMulti": 0.90,
-			"turnSpeedMulti": 0.90,
-			"accelerationMulti": 0.90,
-			"decelerationMulti": 0.90
 		}
 	},
     "NOJUMPY": {
