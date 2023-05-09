@@ -24,5 +24,12 @@ Source files for Mechwarrior 5 Unreal Engine 4 MOD editor with new pirate battle
 
 - Black Marauder MAD-DRK1: Some heavily modified version of the Marauder 3R variant, but cursed. Faction Rarity  {Periphery: Very Rare, Bandits, Outlaws and Pirates: Rare}
 
-
+            _(º)_
+           [//^\\]
+          //\\0//\\
+          W |"x"| W
+            J'-'L  
+            I   I
+            A   A
+           '^' '^'
 - Urbinator CGR-UM: CGR-1A1 Charger fixed with UrbanMech parts. Faction Rarity  {Periphery: Very Rare; Bandits, Outlaws and Pirates: Uncommon}
