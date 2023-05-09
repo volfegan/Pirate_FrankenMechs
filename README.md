@@ -27,8 +27,8 @@ Source files for Mechwarrior 5 Unreal Engine 4 MOD editor with new pirate battle
             _(º)_
            [//^\\]
           //\\0//\\
-          W |"x"| W
-            J'-'L  
+          I |"x"| I
+          W J'-'L W
             I   I
             A   A
            '^' '^'
