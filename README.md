@@ -1,6 +1,8 @@
 # Pirate_FrankenMechs
 Source files for Mechwarrior 5 Unreal Engine 4 MOD editor with new pirate battlemech variants and chassis.
 
+![Frankenmech logo](Pirate_FrankenMechs/Resources/logo.png)
+
 - Gunhed LCT-GUN: A very modified LCT-3V Locust with its entire left torso & arm weapon system made from a "FOUND" Marauder-II cannon turret. Faction Rarity  {Periphery: Rare; Bandits, Outlaws and Pirates: Uncommon}
 
 
