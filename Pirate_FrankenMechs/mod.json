@@ -1,7 +1,7 @@
 {
-   "displayName" : "Pirate_FrankenMechs",
+   "displayName" : "Pirate_FrankenMechs v1.1",
    "version" : "1.0",
-   "buildNumber" : 133,
+   "buildNumber" : 137,
    "description" : "Another FrankenMechs collection (exclusive to Pirates/Periphery) and some unorthodox field refit variants. There is a Locust with a big gun, some decapitated Spider+Flea with a big gun, a big gun wanna-be Hollander-Javelin, and good variants of Javelin, Cicada and Catapult. Also, a big arm/big punch Hunchback, the Black Marauder, and the Urbinator.",
    "author" : "Volfegan",
    "authorURL" : "https://github.com/volfegan/Pirate_FrankenMechs_MW5mod",
@@ -9,8 +9,7 @@
    "gameVersion" : "1.1.0",
    "manifest" : [
       "/Game/Objects/Mechs/Javelin/Model/Javelin_HPS.uasset",
-      "/Game/Objects/Mechs/_common/Mech_SKL.uasset",
-      "/Game/Objects/Weapons/_common/Weapon_SKL.uasset"
+      "/Game/Objects/Mechs/_common/Mech_SKL.uasset"
    ],
    "steamPublishedFileId" : 2861962190,
    "steamLastSubmittedBuildNumber" : 9,
