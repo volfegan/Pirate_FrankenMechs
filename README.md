@@ -9,7 +9,7 @@ Source files for Mechwarrior 5 Unreal Engine 4 MOD editor with new pirate battle
 - Javelin 10NF - 1/2 side JVN-10N + 1/2 side JVN-10F. Faction Rarity  {Davion: Very rare; Free Rasalhague Republic: Very rare; Mercenaries: Very rare; Periphery: Very rare; Bandits; Outlaws and Pirates: Uncommon; FederatedCommonwealth: Very rare}
 
 
-- Termite SDR-FLE: An unsalvageable damage Spider + a crippled Flea fused together to fix each other. Faction Rarity  {Periphery: Rare; Bandits, Outlaws and Pirates: Uncommon}
+- Termite SDR-FLE: An unsalvageable damage Spider + a crippled Flea fused together to fix each other. Faction Rarity  {Periphery: Rare; Bandits, Outlaws and Pirates: Uncommon; Liao: Super Rare}
 
 
 - Jallinder JVN-SHD: A Javelin chassis with cannon parts from a Shadow Hawk for some wanna be pirate version of the Hollander. Faction Rarity  {Periphery: Rare; Bandits, Outlaws and Pirates: Uncommon}
