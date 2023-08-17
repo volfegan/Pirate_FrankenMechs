@@ -1,5 +1,5 @@
 # Pirate_FrankenMechs
-Source files for Mechwarrior 5 Unreal Engine 4 MOD editor with new pirate battlemech variants and chassis.
+Source files for [Mechwarrior 5 Unreal Engine 4 MOD](https://www.nexusmods.com/mechwarrior5mercenaries/mods/886) editor with new pirate battlemech variants and chassis.
 
 ![Frankenmech logo](Pirate_FrankenMechs/Resources/logo.png)
 
