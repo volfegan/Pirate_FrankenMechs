@@ -333,6 +333,43 @@
 			"equipmentRefitDaysMulti": 1.10
 		}
 	},
+	"CMD-MECH": {
+		"name": "Command 'Mech",
+		"description": "Some 'mechs were built to lead.",
+		"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
+		"properties": {
+			"sensorRangeBonus": 50
+		}
+	},
+	"WEAK-HEAD": {
+		"name": "Weak Head Armor",
+		"description": "This 'Mech has less potential and maximum armor protecting its cockpit than typical",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"maxArmorBonus": {
+				"Head": -3
+			}
+		}
+	},
+	"MELEE": {
+		"name": "Melee Specialization",
+		"description": "This 'Mech is designed or upgraded for melee combat",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee"
+						],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.9
+					}
+				]
+			}
+		}
+	},
 	"UAV-CARRIER": {
 		"name": "UAV Carrier",
 		"description": "This 'Mech has a built-in compartment for standard UAV drone(s).",

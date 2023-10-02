@@ -77,6 +77,13 @@
             "DIFFICULTTOMAINTAIN-FM"
 		]
 	},
+    "BLR-KNT": {
+		"quirks": [
+			"CMD-MECH",
+			"WEAK-HEAD-1",
+			"MELEE"
+		]
+	},
     "CGR-UM": {
 		"quirks": [
             "UM-CURSE",

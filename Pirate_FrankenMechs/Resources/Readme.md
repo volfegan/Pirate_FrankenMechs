@@ -113,3 +113,12 @@ Faction Rarity  {
     Periphery: Very Rare,
     Bandits, Outlaws and Pirates: Uncommon
 }
+
+- Battlemaster BLR-KNT:
+First built for the Star League in 2633 by Hollis Industries, the BattleMaster is one of the most iconic chassis of its time. This model of the BattleMaster is a very downgraded version of the BLR-1G 'Mech. Easier to maintain as it removes the missiles and PPC for more medium lasers and has a sword.
+
+Faction Rarity  {
+    Independents: Very rare,
+    Periphery: Rare,
+    Bandits, Outlaws and Pirates: Rare
+}
