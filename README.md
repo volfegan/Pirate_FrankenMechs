@@ -7,7 +7,7 @@ Source files for [Mechwarrior 5 Unreal Engine 4 MOD](https://www.nexusmods.com/m
 
 - Javelin 10NF (30T): 1/2 side JVN-10N + 1/2 side JVN-10F. Faction Rarity  {Davion: Very rare; Free Rasalhague Republic: Very rare; Mercenaries: Very rare; Periphery: Very rare; Bandits; Outlaws and Pirates: Uncommon; FederatedCommonwealth: Very rare}
 
-- Termite SDR-FLE (30T): An unsalvageable damage Spider + a crippled Flea fused together to fix each other. Faction Rarity  {Periphery: Rare; Bandits, Outlaws and Pirates: Uncommon; Liao: Super Rare}
+- Termite SDR-FLE (30T): An unsalvageable damage Spider + a crippled Flea fused together to fix each other. Faction Rarity  {Periphery: Rare; Bandits, Outlaws and Pirates: Uncommon}
 
 - Jallinder JVN-SHD (35T): A Javelin chassis with cannon parts from a Shadow Hawk for some wanna be pirate version of the Hollander. Faction Rarity  {Periphery: Rare; Bandits, Outlaws and Pirates: Uncommon}
 
