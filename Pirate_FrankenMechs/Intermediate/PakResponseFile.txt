@@ -1,0 +1,5 @@
+"C:/Unreal Engine/MechWarrior5Editor/MW5Mercs/Plugins/Pirate_FrankenMechs/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/Pirate_FrankenMechs/Content/*" "../../../MW5Mercs/Plugins/Pirate_FrankenMechs/Content/"
+"C:/Unreal Engine/MechWarrior5Editor/MW5Mercs/Plugins/Pirate_FrankenMechs/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/Pirate_FrankenMechs/ModOverride/*" "../../../MW5Mercs/Content/"
+"C:/Unreal Engine/MechWarrior5Editor/MW5Mercs/Plugins/Pirate_FrankenMechs/ModOverride/WwiseAudio/*" "../../../MW5Mercs/Content/WwiseAudio/"
+"C:/Unreal Engine/MechWarrior5Editor/MW5Mercs/Plugins/Pirate_FrankenMechs/Config/*" "../../../MW5Mercs/Config/"
+"C:/Unreal Engine/MechWarrior5Editor/MW5Mercs/Plugins/Pirate_FrankenMechs/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/Pirate_FrankenMechs/AssetRegistry.bin" "../../../MW5Mercs/Plugins/Pirate_FrankenMechs/"

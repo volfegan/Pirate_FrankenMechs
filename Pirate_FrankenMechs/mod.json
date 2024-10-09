@@ -1,13 +1,15 @@
 {
    "displayName" : "Pirate_FrankenMechs",
-   "version" : "1.2",
-   "buildNumber" : 140,
+   "version" : "1.27",
+   "buildNumber" : 163,
    "description" : "Another Pirate's FrankenMechs (exclusive to Pirates/Periphery). Adds several unorthodox variants and badly assembled FrankenMechs used mostly by Pirates and the Periphery realms. And also the Black Marauder.",
    "author" : "Volfegan",
    "authorURL" : "https://github.com/volfegan/Pirate_FrankenMechs_MW5mod",
    "defaultLoadOrder" : 0,
    "gameVersion" : "1.1.0",
    "manifest" : [
+      "/Game/Objects/Mechs/Centurion/Target/Textures/Centurion_la_armor.uasset",
+      "/Game/Objects/Mechs/Centurion/Target/Textures/Centurion_la_internal.uasset",
       "/Game/Objects/Mechs/Javelin/Model/Javelin_HPS.uasset",
       "/Game/Objects/Mechs/_common/Mech_SKL.uasset"
    ],
